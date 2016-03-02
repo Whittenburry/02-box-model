@@ -7,13 +7,13 @@
 }
 
 body {
-  margin: .5rem;
-  border: 1px solid grey;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .grid-item {
   width: calc(100% / 3);
-  display: inline-block;
+  float: left;
 
   padding: .5rem;
 }
@@ -22,31 +22,30 @@ body {
   width: 100%;
 
 
-  border: 1px solid grey;
-}
-
-.item-caption, .right-hand, .left-hand {
-  display: inline;
+  border: 1px solid lightgrey;
 }
 
 .left-hand {
-  color: darkgrey;
-  background: #7457c2;
-  text-align: left;
+  color: lightgrey;
+  float: left;
 }
 
 .right-hand {
-  color: darkgrey;
-  background: #7457c2;
-  text-align: right;
+  color: lightgrey;
+  float: right;
 }
 
 .item-caption {
+  width: calc(100% / 3);
 
-  border: 1px solid grey;
+  line-height: 1rem;
+  display: inline;
+  overflow: auto;
+
+  border-bottom: 1px solid lightgrey;
 }
 
 .shrunken-image {
-  max-width: 2rem;
-  display: inline;
+  width: 1.2rem;
+  vertical-align: text-bottom;
 }
