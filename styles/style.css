@@ -35,7 +35,7 @@ body {
   float: right;
 }
 
-.item-caption {
+/*.item-caption {
   width: calc(100% / 3);
 
   line-height: 1rem;
@@ -43,7 +43,17 @@ body {
   overflow: auto;
 
   border-bottom: 1px solid lightgrey;
+}*/
+
+.item-caption {
+  width: 100%;
+  display: inline-block;
+  border-bottom: 1px solid lightgrey;
+  text-align: right;
+  line-height: 1rem;
 }
+
+
 
 .shrunken-image {
   width: 1.2rem;
