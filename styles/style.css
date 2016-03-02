@@ -7,5 +7,46 @@
 }
 
 body {
-  margin: 0;
+  margin: .5rem;
+  border: 1px solid grey;
+}
+
+.grid-item {
+  width: calc(100% / 3);
+  display: inline-block;
+
+  padding: .5rem;
+}
+
+.main-image {
+  width: 100%;
+
+
+  border: 1px solid grey;
+}
+
+.item-caption, .right-hand, .left-hand {
+  display: inline;
+}
+
+.left-hand {
+  color: darkgrey;
+  background: #7457c2;
+  text-align: left;
+}
+
+.right-hand {
+  color: darkgrey;
+  background: #7457c2;
+  text-align: right;
+}
+
+.item-caption {
+
+  border: 1px solid grey;
+}
+
+.shrunken-image {
+  max-width: 2rem;
+  display: inline;
 }
